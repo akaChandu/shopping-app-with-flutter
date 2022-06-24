@@ -7,6 +7,7 @@ I am Chandra Prakash Mishra from Bhopal, I do the Designing and Development with
 
 ## Tools and technologies used
 [![My Skills](https://skillicons.dev/icons?i=flutter)](https://flutter.dev)
+[![My Skills](https://skillicons.dev/icons?i=firebase)](https://firebase.google.com/)
 
 # shopping_app
 
