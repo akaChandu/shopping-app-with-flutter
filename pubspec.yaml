@@ -68,7 +68,6 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/images/product-placeholder.png
-    - assets/images/shopapp_logo.png
     - assets/images/shop_app.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
