@@ -1,4 +1,14 @@
-# my_shop
+# Chandra Prakash Mishra
+
+I am Chandra Prakash Mishra from Bhopal, I do the Designing and Development with flutter. I really enjoying design cross-platform Mobile App, UI, UX.
+
+- 🌱 I’m currently learning Database 
+- 📫 How to reach me: chanduhprakash@gmail.com 
+
+## Tools and technologies used
+[![My Skills](https://skillicons.dev/icons?i=flutter)](https://flutter.dev)
+
+# shopping_app
 
 A new Flutter project.
 
