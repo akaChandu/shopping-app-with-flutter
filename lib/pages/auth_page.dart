@@ -47,13 +47,13 @@ class AuthPage extends StatelessWidget {
                     child: Container(
                       margin: const EdgeInsets.only(bottom: 20.0),
                       padding: const EdgeInsets.symmetric(
-                          vertical: 20.0, horizontal: 55.0),
+                          vertical: 20.0, horizontal: 40.0),
                       transform: Matrix4.rotationZ(0 * pi / 180)
                         ..translate(0.0),
                       // ..translate(-10.0),
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(50),
-                        color: Colors.deepOrange.shade900,
+                        borderRadius: BorderRadius.circular(90),
+                        color: Colors.pink.shade400,
                         boxShadow: const [
                           BoxShadow(
                             blurRadius: 8,
@@ -62,19 +62,24 @@ class AuthPage extends StatelessWidget {
                           )
                         ],
                       ),
-                      // child: AssetImage('assets/images/shopapp_logo.png'),
-                      child: Text(
-                        'MyShop',
-                        style: TextStyle(
-                          color: Theme.of(context)
-                              .primaryTextTheme
-                              .headline6
-                              ?.color,
-                          fontSize: 50,
-                          fontFamily: 'Anton',
-                          fontWeight: FontWeight.normal,
-                        ),
+                      child: Image.asset(
+                        'assets/images/shop_app.png',
+                        width: 100,
+                        height: 130.0,
+                        fit: BoxFit.contain,
                       ),
+                      // child: Text(
+                      //   'MyShop',
+                      //   style: TextStyle(
+                      //     color: Theme.of(context)
+                      //         .primaryTextTheme
+                      //         .headline6
+                      //         ?.color,
+                      //     fontSize: 50,
+                      //     fontFamily: 'Anton',
+                      //     fontWeight: FontWeight.normal,
+                      //   ),
+                      // ),
                     ),
                   ),
                   Flexible(
@@ -291,8 +296,8 @@ class _AuthCardState extends State<AuthCard>
                       position: _slideAnimation!,
                       child: TextFormField(
                         enabled: _authMode == AuthMode.Signup,
-                        decoration:
-                            const InputDecoration(labelText: 'Confirm Password'),
+                        decoration: const InputDecoration(
+                            labelText: 'Confirm Password'),
                         obscureText: true,
                         validator: _authMode == AuthMode.Signup
                             ? (value) {
