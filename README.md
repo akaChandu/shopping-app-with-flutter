@@ -9,6 +9,9 @@ I am Chandra Prakash Mishra from Bhopal, I do the Designing and Development with
 [![My Skills](https://skillicons.dev/icons?i=flutter)](https://flutter.dev)
 [![My Skills](https://skillicons.dev/icons?i=firebase)](https://firebase.google.com/)
 
+## Design and Development
+A shopping app developed in flutter, data storage and manage done by realtime database on firebase with user authentication
+
 # shopping_app
 
 A new Flutter project.
